@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capturar Guias"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/campo_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 1"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 2"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 3"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 4"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 5"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 6"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 7"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 8"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 9"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 10"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 11"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 12"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 13"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 14"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/campo_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:hint="Guia 15"
+            android:inputType="number"
+            android:maxLength="12"
+            android:layout_gravity="center"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="11"
+            android:text="Enviar" />
+
+        <Button
+            android:id="@+id/btn_limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="11"
+            android:text="Limpiar" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
